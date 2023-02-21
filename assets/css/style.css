@@ -1,0 +1,618 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   /* padding  */
+   scroll-behavior: smooth;
+   /* scroll anchor links  */
+}
+/*  */
+body {
+   font-family: 'DM Sans', sans-serif;
+   /* DM sans  */
+
+}
+/* body  */
+
+
+button:active, button:focus {
+   outline: none;
+ }
+button::-moz-focus-inner {
+   border: 0;
+ }
+/* btn fix  */
+
+
+
+a:active, a:focus { 
+   outline: none; 
+}
+/* fix links  */
+
+
+
+/* header  */
+#header-main {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 150px;
+   max-width: 1920px;
+   margin: auto;
+}
+#header-main a {
+   text-decoration: none;
+   color: #222222;
+}
+#header-mnain a:hover {
+   color: #222222;
+}
+#header-mnain a:visited {
+   color: #222222;
+}
+#header-main #reg-btn {
+   color: white;
+   background-color: #09A66D;
+   border: solid 2px #09A66D;
+   border-radius: 8px;
+   cursor: pointer;
+   padding: 10px 23px;
+   margin: 0 25px;
+   font-size: 16px;
+}
+#header-main #header-topNav a {
+   margin: 0 20px;
+}
+#header-logo {
+   cursor: pointer;
+}
+#header-main #header-menu a{
+   margin: 0 5px;
+}
+#header-main i {
+   font-size: 14px;
+   background: #F3FBF8;
+   padding: 10px;
+   border-radius: 100%;
+}
+#header-main i:hover {
+   background-color: #09A66D;
+   color: white;
+   transition: .2s ease-in-out;
+}
+#header-main #header-topNav a:hover {
+   color: #09A66D;
+}
+/* header  */
+
+/* main section  */
+
+#main-section {
+   background-color: #F3FBF8;
+   max-width: 1920px;
+   height: auto;
+   margin: auto;
+   text-align: center;
+}
+#main-section .container {
+   padding: 10% 10%;
+   position: relative;
+}
+#main-section .container #leaves {
+   position: absolute;
+   width: 50%;
+   top: -17px;
+   left: -60px;
+}
+#main-section #text-item {
+   font-size: 16px;
+   margin-bottom: 40px;
+   line-height: 30px;
+   color: #555555;
+}
+#main-section .slogan {
+   font-family: 'Rosario';
+   font-weight: 700;
+   font-size: 70px;
+   margin-bottom: 20px;
+   color: #222222;
+}
+#main-section #greenery {
+   width: 80%;
+}
+#main-section .row {
+   display: flex;
+   justify-content:space-around;
+}
+#main-section #img-greenery {
+   flex: 4;
+}
+#main-section #statistics {
+   flex: 1;
+   margin-top: 50px;
+}
+#main-section #statistics .item {
+   background-color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   padding: 17px 30px;
+   margin: 15px 0;
+}
+#main-section #statistics .item i {
+   background: #F3FBF8;
+   padding: 13px;
+   border-radius: 100%;
+   margin: 0 15px;
+}
+#main-section #statistics .item .title {
+   font-size: 48px;
+   line-height: 48px;
+}
+#main-section #statistics .item .subtitle {
+   font-size: 18px;
+   line-height: 30px;
+}
+#main-section #user {
+   color: #09A66D;
+}
+#main-section #star {
+   color: #FCBF29;
+}
+#main-section #lemon {
+   color: rgb(230, 178, 82);
+}
+#main-section .order-btn p{
+   display: inline;
+   margin-right: 10px;
+   color: #222222;
+   font-weight: 500;
+   font-size: 16px;
+}
+#main-section .order-btn button {
+   border: none;
+   background-image: url(../img/ellipse\ green.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50px;
+   padding: 22px;
+   background-color: #F3FBF8;
+   cursor: pointer;
+}
+#main-section .order-btn button img {
+   width: 22px;
+}
+
+
+
+
+/* main section  */
+
+/* features section  */
+
+
+
+
+
+#features-section {
+   max-width: 1920px;
+   margin: auto;
+   height: auto;
+}
+#features-section .container {
+   padding: 10% 10%;
+   position: relative;
+}
+#features-section #vector{
+   width: 50%;
+   position: absolute;
+   right: 0;
+   top: -10px;
+}
+#features-section .title {
+   font-family: 'Rosario';
+   font-weight: 700;
+   font-size: 70px;
+   margin-bottom: 20px;
+   color: #222222;
+   margin: 10px 0;
+}
+#features-section .subtitle {
+   color: #555555;
+   font-size: 18px;
+   line-height: 30px;
+   margin: 10px 0;
+}
+#features-section .row { 
+   display: flex;
+   justify-content: space-around ;
+   position: relative;
+}
+#features-section .right-col img {
+   background-color: #09A66D;
+   width: 100%;
+   border-radius: 100%;
+
+}
+#features-section .item {
+   padding: 40px 55px;
+   display: flex;
+   width: 80%;
+}
+#features-section .item .lead-text {
+   color:#222222;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   margin: 10px 0;
+}
+/* #features-section .item img {
+   background-color: #F3FBF8;
+   width: 50px;
+   margin-right: 25px;
+   border-radius: 100%; 
+   padding: 3%;
+   box-sizing: content-box;
+} */
+#features-section .item img {
+   background-image: url(/assets/img/Ellipse\ 109.png);
+   background-position: center;
+   background-size: auto;
+   background-repeat: no-repeat;
+   padding: 5px 25px;
+   margin-right: 25px;
+}
+#features-section .center img {
+   background-image: url(/assets/img/white.png); 
+}
+#features-section .item .desc-text {
+   color:#555555;
+   font-size: 14px;
+   line-height: 20px;
+   margin: 10px 0;
+}
+#features-section .left-col .center {
+   background-color: #F3FBF8;
+}
+#features-section .right-col {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#features-section .order-btn {
+   text-align: center;
+}
+
+
+
+/* features section  */
+
+/* benefits section  */
+
+#benefits-section {
+   max-width: 1920px;
+   margin: auto;
+   height: auto;
+   background-color: rgba(9, 166, 109, 0.05);
+   position: relative;
+}
+#benefits-section .container {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 7% 7%;
+}
+#benefits-section #vegetebles {
+   width: 45%;
+}
+#benefits-section .promo-item {
+   margin-left: 50px;
+}
+#benefits-section #buy {
+   font-family: 'Rosario';
+   font-weight: 700;
+   font-size: 70px;
+   line-height: 90px;
+   margin: 10px 0;
+   color: #222222; 
+}
+#benefits-section .subtitle {
+   font-size: 18px;
+   line-height: 30px;
+   color: #555555;
+   margin: 10px 0 50px 0;
+}
+#benefits-section #leaves-2 {
+   width: 35%;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+#benefits-section .order-btn {
+   display: flex;
+   align-items: center;
+   color: #222222;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 30px;
+}
+#benefits-section .order-btn button {
+   border: none;
+   background-image: url(../img/ellipse\ green.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50px;
+   padding: 22px;
+   background-color: #F3FBF8;
+   cursor: pointer;
+}
+#benefits-section .order-btn img {
+   width: 22px;
+}
+
+/* benefits section  */
+
+/* apps section */
+
+
+
+#apps-section {
+   max-width: 1920px;
+   margin: auto;
+   height: auto;
+}
+#apps-section .container {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 7% 7%;
+}
+#apps-section .title {
+   font-family: 'Rosario';
+   font-weight: 700;
+   font-size: 70px;
+   color: #222222;
+   margin: 20px 0 15px 0;
+}
+#apps-section .subtitle {
+   font-size: 18px;
+   line-height: 30px;
+   color: #555555;
+   margin: 10px 0 50px 0;
+}
+#apps-section #apps-item {
+   text-decoration: none;
+   color: #333333;
+   border-radius: 50px;
+   padding: 8px 20px;
+   background-color: #F3FBF8;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 18px;
+   border: none;
+   cursor: pointer;
+}
+#apps-section .app-links img{
+   margin: 0 12px;
+}
+#apps-section #phone {
+   width: 18%;
+}
+#apps-section #apps-item:hover {
+   background-color: #09A66D;
+   color: white;
+   transition: .2s ease-in-out;
+}
+/* apps section */
+
+
+/* footer  */
+
+
+#footer {
+   background-color: #FCFEFD;
+   max-width: 1920px;
+   margin: auto;
+}
+#footer .container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 7% 7%;
+}
+#footer .footer-nav {
+   display: flex;
+   flex-direction: column;
+}
+#footer .footer-logo {
+   display: flex;
+   flex-direction: column;
+}
+#footer .footer-resources {
+   display: flex;
+   flex-direction: column;
+}
+#footer .footer-logo img {
+   width: 20%;
+}
+#footer .footer-logo .logo-desc {
+   margin: 20px 0;
+   color: #555555;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+}
+#footer .title {
+   color: #222222;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 31px;
+   margin: 30px 0;
+}
+#footer .footer-links {
+   color: #555555;
+   font-size: 18px;
+   line-height: 23px;
+   text-decoration: none;
+   margin: 12px 0;
+}
+#footer .footer-links:hover {
+   color: #09A66D;
+}
+#footer .socials-item i {  
+   font-size: 30px;
+}
+#footer .socials-item  {  
+   margin: 30px 0;
+   display: flex;
+   justify-content: space-between;
+}
+#footer .footer-contact .email {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   color: #222222;
+}
+/* footer  */
+
+
+
+
+
+/* media  */
+
+/* max-width 980px */
+@media screen and (max-width:768px) {
+   /* header  */
+   #header-main {
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: auto;
+      justify-content: center;
+   }
+   #header-logo {
+      order: 1;
+   }
+   #header-topNav {
+      order: 2;
+      margin-top: 10px;
+   }
+   #header-menu {
+      order: 3;  
+      text-align: center;
+      margin-top: 10px;
+   }
+   #header-main #header-topNav a {
+      margin: 0 10px;
+      font-size: 0.8em;
+   }
+   #header-main  #header-menu button {
+      display: block;
+      margin: 10px 0;
+   }
+   /* header  */
+   /* main  */
+   #main-section #leaves {
+      display: none;
+   }
+   #main-section .row {
+      display: flex;
+      flex-direction: column;
+   }
+   #main-section #img-greenery img {
+      width: 60%;
+      margin-top: 2%;
+   }
+   #main-section .slogan {
+      font-size: 4em;  
+   }
+   #main-section #statistics {
+      margin: auto;
+   }
+   #main-section #statistics .item {
+      justify-content: center;
+      width: 100%;
+   }
+   /* main  */
+   /* features section  */
+   #features-section #vector{
+      display: none;
+   }
+   #features-section .row {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+   #features-section .item {
+      width: 100%;
+      margin: auto;
+   }
+   #features-section .right-col img {
+      width: 50%;
+   }
+   #features-section .left-col { 
+      order: 1;
+   }
+   /* features section  */
+
+   /* benefits section  */
+
+   #benefits-section .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   #benefits-section .container #buy {
+      text-align: center;
+   }
+   #benefits-section .container .promo-item {
+      margin: 0;
+   }
+   #benefits-section .order-btn {
+      justify-content: center;
+   }
+   #benefits-section .subtitle {
+      text-align: center;
+   }
+   #benefits-section #leaves-2 {
+      display: none;
+   }
+
+
+   /* benefits section  */
+
+
+   /* apps section */
+
+   #apps-section .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   #apps-section #phone {
+      margin-bottom: 25px;
+      width: 30%;
+      text-align: center;
+   }
+   /* apps section */
+
+
+
+   /* footer  */
+
+   #footer .container {
+      display: flex;
+      flex-direction: column;
+      padding: 2% 2%;
+      align-items: center;
+      text-align: center;
+   }
+   #footer .footer-logo img {
+      margin: auto;
+   }
+
+
+
+   /* footer  */
+}
+
+
+/* media */
